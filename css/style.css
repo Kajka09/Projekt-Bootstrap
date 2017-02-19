@@ -138,3 +138,58 @@ h4 {
 }
 /* Services - zakończenie */
 
+/* Portfolio*/
+#portfolio {
+	background-color: #f7f7f7;
+}
+.single-portfolio-content {
+	background-color: white;
+	margin:20px;	
+}
+.single-portfolio-image {
+	height: 50vh;
+	background-position: center;
+	background-size: cover;
+}
+#portfolio-image-1 {
+	background-image: url(../bootstrap-project-photos/portfolio/box_of_cookies.jpg)
+}
+#portfolio-image-2 {
+	background-image: url(../bootstrap-project-photos/portfolio/chaotic_paint.jpg)
+}
+#portfolio-image-3 {
+	background-image: url(../bootstrap-project-photos/portfolio/chestnut_on_bracket.jpg)
+}
+#portfolio-image-4 {
+	background-image: url(../bootstrap-project-photos/portfolio/child_with_blue_paint.jpg)
+}
+#portfolio-image-5 {
+	background-image: url(../bootstrap-project-photos/portfolio/house_with_blue_doors.jpg)
+}
+#portfolio-image-6 {
+	background-image: url(../bootstrap-project-photos/portfolio/typing_on_laptop.jpg)
+}
+.single-portfolio-image-mask {
+    background-color:rgba(14, 216, 214, 0.7);
+    position:absolute;
+	width:100%;
+	height: 100%;
+	opacity:0;
+	position: relative;
+	transition: all 0.5s;
+}
+.single-portfolio-image-mask:hover {
+	opacity:1;
+}
+
+.fa-plus {
+	text-align: center;
+	color:white;
+	font-size: 30px;
+	position:absolute;
+	top:50%;
+	left:0;
+	right:0;
+	transform: translateY(-50%);
+}
+}
