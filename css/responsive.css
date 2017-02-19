@@ -1,0 +1,25 @@
+@media (max-width:768px) {
+	/* menu */
+	
+	#menu {
+		background-color: white;
+		transition: all 0.3s;
+	}
+	
+	#menu a.navbar-brand {
+		color: #0ed8d6;
+	}
+	
+	#menu a.navbar-brand:hover {
+		color:#777777
+	}
+	
+	#menu ul.navbar-nav .menu-item a{
+		color: #0ed8d6;
+	}
+
+	#menu ul.navbar-nav .menu-item a:hover {
+		color:#777777
+	}
+
+	/* menu - zakonczenie */
