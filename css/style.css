@@ -121,10 +121,20 @@ h3{
 	height: 80px;
 	line-height: 80px;
 	font-size: 40px;
+	transition: transform 0.3s ease-out;
 }
 
+#icons-services [class*="fa-"]:hover{
+	background-color: white;
+	color:#0ed8d6;
+	border:0.5px solid;
+	transform: rotate(360deg);
+	
+}
 h4 {
 	color:#333333;
 	font-family: "Montserrat", sans-serif;
 	font-weight: bold;
 }
+/* Services - zakończenie */
+
