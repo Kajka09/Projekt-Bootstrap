@@ -6,7 +6,16 @@ body {
 section {
 	padding:50px;
 }
-
+.button {
+	background-color: #0ed8d6;
+	height:51px;
+	width:137px;
+	text-transform: uppercase;
+	color: white;
+	border:0;
+	border-radius: 5px;
+	font-weight: 800;
+}
 .icons-links a{
 	color:white;
 	background-color:#222222;
@@ -102,16 +111,7 @@ h1 {
 	transform: translateY(-50%);
 }
 
-#view-more {
-	background-color: #0ed8d6;
-	height:51px;
-	width:137px;
-	text-transform: uppercase;
-	color: white;
-	border:0;
-	border-radius: 5px;
-	font-weight: 800;
-}
+
 /* Nagłówek zakończenie */
 /*--------------------------------------*/
 /* Services */
@@ -225,3 +225,28 @@ h4 {
 }
 /* Zespół - zakończenie */
 /*--------------------------------------*/
+/*Formularz */
+#contact {
+	background:linear-gradient(
+      rgba(0, 0, 0, 0.6), 
+      rgba(0, 0, 0, 0.6) ),url(../bootstrap-project-photos/footer/world-map.jpg);	
+	position:relative; 
+    background-size: cover;
+    background-position: center;
+    height:100vh;
+	color:white;
+}
+#contact h3 {
+	color:white;
+}
+
+#contact textarea, input:not([type="submit"]){
+	background-color:white;
+	border: 1px solid;
+	text-transform: uppercase;
+	color:#777777;
+	border-radius:5px;
+	width:100%;
+	padding: 15px;
+	margin-bottom: 38px;
+}
