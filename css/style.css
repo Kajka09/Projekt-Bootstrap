@@ -1,10 +1,29 @@
 body {
 	margin:0;
+	color:#777777;
 }
 
 section {
 	padding:50px;
 }
+
+.icons-links a{
+	color:white;
+	background-color:#222222;
+	display: inline-block;
+	border-radius: 100%;
+	width: 40px;
+	height: 40px;
+	line-height: 40px;
+	font-size: 20px;
+	transition: transform 0.3s ease-out;
+	margin:10px;
+}
+.icons-links a:hover{
+	background-color: #0ed8d6;
+}
+
+/*--------------------------------------*/
 /* Menu styles */
 
 #menu {
@@ -46,7 +65,7 @@ section {
 }
 
 /* Menu styles zakończenie */
-
+/*--------------------------------------*/
 /* Nagłówek */
 
 #header {
@@ -94,7 +113,7 @@ h1 {
 	font-weight: 800;
 }
 /* Nagłówek zakończenie */
-
+/*--------------------------------------*/
 /* Services */
 
 h3{
@@ -137,8 +156,9 @@ h4 {
 	font-weight: bold;
 }
 /* Services - zakończenie */
-
+/*--------------------------------------*/
 /* Portfolio*/
+
 #portfolio {
 	background-color: #f7f7f7;
 }
@@ -192,4 +212,16 @@ h4 {
 	right:0;
 	transform: translateY(-50%);
 }
+/* Portfolio - zakończenie */
+/*--------------------------------------*/
+/* Zespół */
+
+#team-members img {
+	width: 180px;
 }
+#team-members {
+	margin-top:50px;
+	margin-bottom: 30px;
+}
+/* Zespół - zakończenie */
+/*--------------------------------------*/
