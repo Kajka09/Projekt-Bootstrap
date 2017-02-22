@@ -26,5 +26,9 @@ $(function(){
 		}
 	})
 	
-	
+
+	$('#menu.scroll #main-menu').on('click', 'a:not(.dropdown-toggle)', function(e) {
+    $('#menu.scroll #main-menu.in').collapse('hide');
+	});
+
 });

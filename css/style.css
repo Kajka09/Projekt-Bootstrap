@@ -2,7 +2,6 @@ body {
 	margin:0;
 	color:#777777;
 }
-
 section {
 	padding:50px;
 }
@@ -42,9 +41,21 @@ section {
 #menu.scroll {
 	background-color: #0ed8d6;
 }
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #0ed8d6;
+}
+#menu.scroll .navbar-default .navbar-toggle .icon-bar {
+    background-color: white;
+}
+
 #menu.scroll a.navbar-brand {
 	color:white;
 }
+
+#menu.scroll #main-menu a{
+	color:white;
+} 
 
 #menu.scroll a.navbar-brand:hover {
 	color:#777777;
@@ -201,7 +212,6 @@ h4 {
 .single-portfolio-image-mask:hover {
 	opacity:1;
 }
-
 .fa-plus {
 	text-align: center;
 	color:white;
@@ -226,6 +236,7 @@ h4 {
 /* Zespół - zakończenie */
 /*--------------------------------------*/
 /*Formularz */
+
 #contact {
 	background:linear-gradient(
       rgba(0, 0, 0, 0.6), 
